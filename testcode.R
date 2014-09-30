@@ -30,7 +30,7 @@ temp=age5v%>%
          Year=paste("20", yr, sep="")
          )
 
-
+ 
 temp%>%
   filter(county==1, Variable=="Population"%>%
   ggvis(x=~ageaxis, y=~value, stroke=~Source)%>%
